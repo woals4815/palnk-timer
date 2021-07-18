@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B240ADEB26A1751100891BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240ADEA26A1751100891BA5 /* AppDelegate.swift */; };
 		B240ADED26A1751100891BA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240ADEC26A1751100891BA5 /* SceneDelegate.swift */; };
-		B240ADEF26A1751100891BA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240ADEE26A1751100891BA5 /* ViewController.swift */; };
+		B240ADEF26A1751100891BA5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240ADEE26A1751100891BA5 /* MainViewController.swift */; };
 		B240ADF226A1751100891BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B240ADF026A1751100891BA5 /* Main.storyboard */; };
 		B240ADF426A1751300891BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B240ADF326A1751300891BA5 /* Assets.xcassets */; };
 		B240ADF726A1751300891BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B240ADF526A1751300891BA5 /* LaunchScreen.storyboard */; };
+		B240ADFF26A1846B00891BA5 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240ADFE26A1846B00891BA5 /* MyInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B240ADE726A1751100891BA5 /* Rising Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rising Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B240ADEA26A1751100891BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B240ADEC26A1751100891BA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B240ADEE26A1751100891BA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B240ADEE26A1751100891BA5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B240ADF126A1751100891BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B240ADF326A1751300891BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B240ADF626A1751300891BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B240ADF826A1751300891BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B240ADFE26A1846B00891BA5 /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				B240ADEA26A1751100891BA5 /* AppDelegate.swift */,
 				B240ADEC26A1751100891BA5 /* SceneDelegate.swift */,
-				B240ADEE26A1751100891BA5 /* ViewController.swift */,
+				B240ADEE26A1751100891BA5 /* MainViewController.swift */,
 				B240ADF026A1751100891BA5 /* Main.storyboard */,
 				B240ADF326A1751300891BA5 /* Assets.xcassets */,
 				B240ADF526A1751300891BA5 /* LaunchScreen.storyboard */,
 				B240ADF826A1751300891BA5 /* Info.plist */,
+				B240ADFE26A1846B00891BA5 /* MyInfoViewController.swift */,
 			);
 			path = "Rising Project";
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B240ADEF26A1751100891BA5 /* ViewController.swift in Sources */,
+				B240ADEF26A1751100891BA5 /* MainViewController.swift in Sources */,
 				B240ADEB26A1751100891BA5 /* AppDelegate.swift in Sources */,
+				B240ADFF26A1846B00891BA5 /* MyInfoViewController.swift in Sources */,
 				B240ADED26A1751100891BA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
